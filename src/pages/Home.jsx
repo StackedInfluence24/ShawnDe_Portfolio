@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
+import PlaceholderHero from '../assets/creative minds.jpg'
 
 const fullName = 'Replace with your name';
 const personalQuote = 'Replace with your personal quote';
@@ -15,7 +15,7 @@ const Home = () => {
         Contact Me
         </NavLink>
         {/* Replace the src with your own placeholder and change the alt to match the description */}
-        <img className="hero-background" src={PlaceholderHero} alt="placeholder hero image" />
+        <img className="hero-background" src={PlaceholderHero} alt="creative minds" />
       </section>
       <section className="overview home-subsection">
         <h3 className="subsection-intro-header">Introduction</h3>
